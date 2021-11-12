@@ -8,7 +8,7 @@ frun currently does not conform to the OCI Container runtime specification
 frun is currently written by the shell and only provides the parameters passed by the CRI to the OCI Runtime
 , the environment variables, both of which may change in the future
 
-Perhaps there are better names, such as `prun `also known as Pretend to run, `runpc` also known as run Pretend Container, etc.
+Perhaps there are better names, such as `prun` also known as Pretend to run, `runpc` also known as run Pretend Container, etc.
 
 # Why create frun? frun doesn't seem to be of any use at all.
 
