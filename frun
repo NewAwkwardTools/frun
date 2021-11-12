@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# license: BSD-2-Clause License
+# by unknowndev -> unknowndevQwQ@github.com
+
+
+OUTPUT_TARGET=${OUTPUT_TARGET:-/tmp/frun.out}
+
+echo "---------- frun START ----------" >> "${OUTPUT_TARGET}"
+echo -e "args: \n${@}\n" >> "${OUTPUT_TARGET}"
+echo -e "env: \n$(env)\n" >> "${OUTPUT_TARGET}"
+echo -e "vars: \n$(set)\n" >> "${OUTPUT_TARGET}"
+echo "---------- frun   END ----------" >> "${OUTPUT_TARGET}"
